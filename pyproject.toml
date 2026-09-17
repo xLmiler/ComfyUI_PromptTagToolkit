@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-prompt-tag-toolkit"
+version = "1.2.0"
+description = "Global prompt tag library and persistent multi-prompt translation nodes for ComfyUI"
+requires-python = ">=3.10"
+dependencies = [
+  "deep-translator>=1.11.4,<2",
+]
+
+[tool.comfy]
+PublisherId = "local"
+DisplayName = "Prompt Tag Toolkit"
+Icon = ""
